@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Getting Started with Bootstrap</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<style></style>
+
+<body>
+
+    <!-- Container-fluid -->
+  <div class="container-fluid">
+
+      <!----- Page Title ----->
+    <div class="row text-center text-secondary">
+      <div class="col p-2 pt-4">
+        <h2>Two Grid Tricks</h2>
+        <div class="row">
+          <div class="col p-2 pb-4">
+            <h4>Wrapper <b>around</b> .container or cards <b>inside</b> .col</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- Blue Container ----->
+    
+    <div class="row bg-blue text-center mt-1">
+      <div class="col-12">
+        <h4 class="pt-4">Wrapper <b>around</b> .container</h4>
+          
+          <!----------- Nested ----------->
+        <div class="row">
+          <div class=" col-12 col-md-6">
+            <h4>One</h4>
+            <p class="p-2">This is the very first paragraph of my first Bootstrap information template challenge.  In a couple of years, I will be looking back on these projects with gratuitous nostalgia.  I am very excited to start my career as a Software Developer and know in my soul that within two years that my innovative dynamism will bring my family bountiful success in ways that will help humanity and our planet.  I walk into the future with endless intent and agency.</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h4>Two</h4>
+            <p class="p-2"> This paragraph heading is given the title of "Two", which has been given a header font size of "h4".  The greater and less than (ex. >) symbols just be separated from the h4 element.  This is because if the font "header" size were surrounded by these symbols it would not be readable, but would increase the size of the given test that is wrapped in said header element.</p>
+          </div>
+        </div>
+          <!----------- Nested ~ end ----------->
+      </div>
+    </div>
+
+      <!-- Blue Container ~ end -->
+  
+      <!-- Grey Container -->
+      <div class="row text-center bg-grey">
+
+          <!-- "Cards inside .col" -->
+        <div class="col-12">
+          <h3 class="pt-2 bg-drkgrey">Cards <b>inside</b> .col</h3>
+        </div>
+      <!-- "Cards inside .col" ~ end -->
+      
+        <!----- Card Container ----->
+      <div class="row text-center">
+        
+          <!----- "Card Left" ----->
+        <div class="col-12 col-md-6">
+          <div class="card-white">
+            <h4>Three</h4>
+            <p>By examining this paragraph in "localhost", we can dictate that it is indeed located in the "Card Left" quadrant.  This is done more easily with finding it with its more prominent predecessor with an increased font size.  It is located directed above this paragraph under the card title "Three".</p>
+          </div>
+        </div>
+          <!----- "Card Left" ~ end ----->
+        
+          <!----- "Card Right" ----->
+        <div class="col-12 col-md-6">
+          <div class="card-white">
+            <h4>Four</h4>
+            <p>The "Card Right" quadrant is represented with the title of "Four" to assist me in visualizing where I should locate this part of the grid by using the Developer Tools.  The "dev" tools are a very useful tool where you can get hands-on experience with what DOM manipulation looks like when we can make it virtually tangible.</p>
+          </div>
+        </div>
+      </div>
+        <!----- "Card Right" ~ end ----->
+    </div>
+      <!----- Grey & Card Container ~ end ----->
+  </div>
+    <!----- Container-fluid ~ end ------>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
