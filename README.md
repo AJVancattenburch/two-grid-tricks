@@ -85,7 +85,7 @@ With these two techniques, you can put as much padding, border, margin as you wa
 YOUR TURN
 Apply these two techniques to reproduce this page
 
-![Two Grid Tricks Challenge Image](url "/assets/images/two-grid.jpg")
+![Two Grid Tricks Challenge Image](url "https://raw.githubusercontent.com/AJVancattenburch/two-grid-tricks/05c012950d3bd301e369e10d5005e78f4b6b13d9/two-grid.jpg")
 
 
 Use the starting HTML and CSS from above as a starting point. You will have to code a bit of CSS for backgrounds, padding and margin.
