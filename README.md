@@ -87,5 +87,5 @@ Apply these two techniques to reproduce this page
 
 ![Two Grid Tricks Challenge Image](url "two-grid.jpg")
 
-
+ 
 Use the starting HTML and CSS from above as a starting point. You will have to code a bit of CSS for backgrounds, padding and margin.
